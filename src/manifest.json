@@ -1,0 +1,17 @@
+{
+  "name": "Hide Youtube Shorts",
+  "description": "Adds a button to hide Youtube Shorts from your subscription feed",
+  "manifest_version": 3,
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "run_at": "document_end",
+      "matches": ["https://*.youtube.com/*"],
+      "js": ["hide-shorts.js"]
+    }
+  ],
+  "permissions": [
+    "declarativeContent",
+    "storage"
+  ]
+}

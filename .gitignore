@@ -1,3 +1,7 @@
 dist
 .parcel-cache
 node_modules
+.DS_Store
+dist.crx
+dist.pem
+hide-youtube-shorts.zip

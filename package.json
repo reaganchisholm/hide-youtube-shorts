@@ -1,10 +1,12 @@
 {
   "devDependencies": {
     "@parcel/config-webextension": "^2.8.3"
-
   },
   "scripts": {
     "start": "parcel watch src/manifest.json --host localhost --config @parcel/config-webextension",
     "build": "parcel build src/manifest.json --config @parcel/config-webextension"
+  },
+  "dependencies": {
+    "parcel": "^2.9.1"
   }
 }

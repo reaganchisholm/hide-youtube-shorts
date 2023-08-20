@@ -1,3 +1,5 @@
+## Note: Youtube updated their UI and no longer puts Shorts with videos so there is no purpose for this extension anymore
+
 ### Hide Youtube Shorts
 
 Super simple extension to hide Youtube shorts from your subscription feed.
